@@ -1,0 +1,10 @@
+id = "wavespeed-mcp"
+name = "WaveSpeed MCP"
+description = "Model Context Server for WaveSpeed AI media generation (image, video, audio, 3D)"
+version = "0.1.0"
+schema_version = 1
+authors = ["WaveSpeed <market@wavespeed.ai>"]
+repository = "https://github.com/WaveSpeedAI/wavespeed-mcp-zed"
+
+[context_servers.wavespeed]
+name = "WaveSpeed"

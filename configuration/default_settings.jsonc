@@ -1,0 +1,6 @@
+{
+  // WaveSpeed API key from https://wavespeed.ai/accesskey.
+  // Optional: if the wavespeed CLI is installed and you have run
+  // `wavespeed login`, the server reuses that stored login instead.
+  "wavespeed_api_key": ""
+}
