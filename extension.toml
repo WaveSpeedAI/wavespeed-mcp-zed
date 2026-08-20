@@ -3,7 +3,7 @@ name = "WaveSpeed MCP"
 description = "Model Context Server for WaveSpeed AI media generation (image, video, audio, 3D)"
 version = "0.1.1"
 schema_version = 1
-authors = ["WaveSpeed <market@wavespeed.ai>"]
+authors = ["WaveSpeed <support@wavespeed.ai>"]
 repository = "https://github.com/WaveSpeedAI/wavespeed-mcp-zed"
 
 [context_servers.wavespeed]
