@@ -56,6 +56,12 @@ impl zed::Extension for WavespeedMcpExtension {
         let entrypoint = cwd.join(MCP_SERVER_ENTRYPOINT);
 
         let mut env: Vec<(String, String)> = Vec::new();
+        // Channel attribution: identify this Zed extension as the client so
+        // usage is distinguishable from plain `npx @wavespeed/mcp`.
+        env.push((
+            "WAVESPEED_CLIENT_NAME".to_string(),
+            "wavespeed-mcp-zed".to_string(),
+        ));
         if let Some(key) = settings
             .wavespeed_api_key
             .as_ref()
