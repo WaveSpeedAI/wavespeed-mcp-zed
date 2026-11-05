@@ -8,8 +8,13 @@ spending.
 
 ## Setup
 
-Install **WaveSpeed MCP** from Zed's extension panel, then set your API key in
-the context server configuration (or sign in once with the
+**WaveSpeed MCP** is pending review in the Zed extension registry. Until it is
+listed, install it as a dev extension: install Rust via
+[rustup](https://www.rust-lang.org/tools/install), clone this repository, then
+in Zed open the Extensions page, click **Install Dev Extension** (or run the
+`zed: install dev extension` action) and select the cloned directory.
+
+Then set your API key in the context server configuration (or sign in once with the
 [wavespeed CLI](https://github.com/WaveSpeedAI/wavespeed-cli): `wavespeed login`
 — the server reuses that login). Keys: [wavespeed.ai/accesskey](https://wavespeed.ai/accesskey).
 

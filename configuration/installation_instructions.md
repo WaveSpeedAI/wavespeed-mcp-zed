@@ -1,9 +1,10 @@
 # WaveSpeed MCP
 
 Run any model on the live [WaveSpeed](https://wavespeed.ai) catalog — image,
-video, audio, 3D — from Zed's agent. Seven tools: model search, per-model
-schema introspection, generation (with `@path` local-file upload), price
-quotes before spending, balance, upload, and prediction recovery.
+video, audio, 3D — from Zed's agent. 16 tools: model search, per-model
+schema introspection, generation (with `@path` local-file upload), image and
+video shortcuts (generate, edit, extend), price quotes before spending,
+balance, run history, billing and usage, upload, and prediction recovery.
 
 ## Authentication
 
